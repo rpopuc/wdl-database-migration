@@ -1,6 +1,5 @@
 {
     "name": "wdl/database-migration",
-    "type": "library",
     "description": "Service and Middleware to apply migrations in Laravel Application",
     "keywords": ["laravel","migration"],
     "homepage": "https://github.com/rpopuc/wdl-database-migration",
@@ -11,9 +10,20 @@
             "email": "rpopuc@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=7.1",
+        "illuminate/support": "5.*"
+	},
     "autoload": {
         "psr-4": {
             "Wdl\\DatabaseMigration\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
