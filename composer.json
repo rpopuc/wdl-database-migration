@@ -1,0 +1,8 @@
+{
+    "name": "wdl/database-migration",
+    "autoload": {
+        "psr-4": {
+             "Wdl\\DatabaseMigration\\": "src/"
+        }
+    }
+}
