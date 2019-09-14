@@ -1,8 +1,19 @@
 {
     "name": "wdl/database-migration",
+    "type": "library",
+    "description": "Service and Middleware to apply migrations in Laravel Application",
+    "keywords": ["laravel","migration"],
+    "homepage": "https://github.com/rpopuc/wdl-database-migration",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Robson P Oliveira",
+            "email": "rpopuc@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
-             "Wdl\\DatabaseMigration\\": "src/"
+            "Wdl\\DatabaseMigration\\": "src/"
         }
     }
 }
